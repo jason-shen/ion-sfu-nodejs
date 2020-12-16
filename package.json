@@ -1,0 +1,25 @@
+{
+  "name": "ion-sfu-nodejs",
+  "version": "0.0.6",
+  "description": "nodejs interface to pion/ion-sfu, bring the power of pion to nodejs",
+  "main": "lib/index.js",
+  "types": "lib",
+  "repository": "https://github.com/jason-shen/ion-sfu-nodejs",
+  "author": "Jason Shen",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@types/events": "^3.0.0",
+    "events": "^3.2.0",
+    "google-protobuf": "^3.14.0",
+    "grpc": "^1.24.4",
+    "js-base64": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/google-protobuf": "^3.7.4",
+    "grpc-tools": "^1.10.0",
+    "grpc_tools_node_protoc_ts": "^5.0.1"
+  }
+}
